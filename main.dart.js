@@ -90992,7 +90992,7 @@ $0(){return new A.u2(new A.azi(),null)},
 $S:509}
 A.azi.prototype={
 $1(a){var s=null,r=A.b([A.aLO(new A.mM(s),new A.azg(),t.V),A.aLO(s,new A.azh(),t.D1)],t.Ds),q=A.aPA(s,B.dc),p=$.aTz()
-return A.b2m(new A.DS(B.P_,"/splash","NPR User",q,new A.asw(),$.aUQ(),$.aUP(),!1,p,s),r)},
+return A.b2m(new A.DS(B.P_,"/splash","SM Reviews",q,new A.asw(),$.aUQ(),$.aUP(),!1,p,s),r)},
 $S:510}
 A.azg.prototype={
 $1(a){var s,r,q=null,p="[DEFAULT]",o=$.km,n=(o==null?$.km=$.B8():o).qI(0,p)
