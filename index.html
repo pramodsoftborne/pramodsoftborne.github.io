@@ -33,9 +33,10 @@
   <link rel="manifest" href="manifest.json">
 
   <!-- google SDK -->
-  <!-- <meta name="google-signin-client_id" content="80698207055-r5vi4qc7frm02miru170pemcvahiiobf.apps.googleusercontent.com"> old one--> 
+  <!-- <meta name="google-signin-client_id" content="80698207055-r5vi4qc7frm02miru170pemcvahiiobf.apps.googleusercontent.com"> old one-->
   <!-- <meta name="google-signin-client_id" content="1090182728325-3s9lu23r0kkvj4llr8i3cr2p8aag20to.apps.googleusercontent.com"> using currently with localhost:3000 -->
-  <meta name="google-signin-client_id" content="411347197849-0t9fqj8ri4eon5frou1nrlam43jnr3ob.apps.googleusercontent.com">
+  <meta content="411347197849-0t9fqj8ri4eon5frou1nrlam43jnr3ob.apps.googleusercontent.com"
+        name="google-signin-client_id">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -43,11 +44,12 @@
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   
        <!-- facebook Script -->
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script async crossorigin="anonymous" defer
+          src="https://connect.facebook.net/en_US/sdk.js"></script>
   
 
   <script>
-    var serviceWorkerVersion = '3147131865';
+    var serviceWorkerVersion = '1514128699';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
